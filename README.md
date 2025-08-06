@@ -1,14 +1,17 @@
 # **Transparent Market Platform — YC Demo**
 
+🌐 **[Live Demo → Click Here](https://stellacydong-reinsurance-analytics-transparent-marke-app-w3lwel.streamlit.app)**
+
 🚀 **AI-Powered, Clause-Grounded, Auditable Treaty Bidding**
 
-This Streamlit demo showcases **Reinsurance Analytics**:
-A **transparent market platform** that combines:
+We are building the **first broker-neutral, transparent reinsurance market platform** that combines:
 
-* **Open Treaty Bidding** – Multi-Agent Reinforcement Learning (MARL)
+* **Open Treaty Bidding** – Multi-Agent Reinforcement Learning (MARL) for dynamic pricing
 * **ClauseLens** – Clause-grounded quote explanations for regulatory transparency
 * **MarketLens** – Market benchmarking & fairness dashboards
 * **Governance Layer** – Human-in-the-loop oversight and audit logging
+
+This demo shows how global risk transfer can become **faster, more transparent, and compliant**.
 
 ---
 
@@ -16,7 +19,9 @@ A **transparent market platform** that combines:
 
 | Live Treaty Bidding | MarketLens Dashboard | ClauseLens Explanations |
 | ------------------- | -------------------- | ----------------------- |
-| ![demo](logo.png)   | *(Add screenshots)*  | *(Add screenshots)*     |
+| ![Logo](logo.png)   | *(Add screenshots)*  | *(Add screenshots)*     |
+
+*(Screenshots can be added to make your README visually engaging.)*
 
 ---
 
@@ -29,9 +34,9 @@ transparent-market-demo/
 ├── requirements.txt       # Python dependencies
 ├── logo.png               # App logo
 ├── README.md              # Project documentation
-├── data/                  # demo datasets
+├── data/                  # (Optional) demo datasets
 └── .streamlit/
-    └── config.toml        # UI theme settings
+    └── config.toml        # (Optional) UI theme settings
 ```
 
 ---
@@ -70,25 +75,23 @@ transparent-market-demo/
 
 ## **☁️ Deploy to the Cloud**
 
-### **Option 1: Streamlit Cloud**
+### **1. Streamlit Cloud (Recommended)**
 
 1. Push this project to GitHub.
 2. Go to [https://share.streamlit.io](https://share.streamlit.io).
 3. Click **New App → Select Repository → app.py**.
 4. Deploy!
 
-Your app will be live at:
+Your app is already live at:
 
-```
-https://your-username-transparent-market-demo.streamlit.app
-```
+**[https://stellacydong-reinsurance-analytics-transparent-marke-app-w3lwel.streamlit.app](https://stellacydong-reinsurance-analytics-transparent-marke-app-w3lwel.streamlit.app)**
 
 ---
 
-### **Option 2: Hugging Face Spaces**
+### **2. Hugging Face Spaces**
 
 1. Create a **New Space → Streamlit**.
-2. Upload the following files:
+2. Upload:
 
    ```
    app.py
@@ -96,23 +99,42 @@ https://your-username-transparent-market-demo.streamlit.app
    logo.png
    README.md
    ```
-3. Hugging Face will auto-build and host your demo.
+3. Hugging Face will auto‑build and host your demo.
 
 ---
 
-### **Option 3: Embed in Squarespace**
+## **💻 Embed in Squarespace**
 
-Once deployed, embed your app via `<iframe>`:
+To showcase the live demo directly on your Squarespace site:
+
+1. Add a **Code Block** in your page editor.
+2. Paste the following `<iframe>`:
 
 ```html
 <iframe 
-    src="https://your-app-url.streamlit.app"
+    src="https://stellacydong-reinsurance-analytics-transparent-marke-app-w3lwel.streamlit.app"
     width="100%" 
     height="900" 
     frameborder="0"
     allowfullscreen>
 </iframe>
 ```
+
+**Optional Styling:**
+
+```html
+<div style="border:1px solid #ccc; border-radius:12px; overflow:hidden;">
+    <iframe 
+        src="https://stellacydong-reinsurance-analytics-transparent-marke-app-w3lwel.streamlit.app"
+        width="100%" 
+        height="900" 
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</div>
+```
+
+This gives your embedded app a **clean, card-like appearance**.
 
 ---
 
@@ -126,7 +148,7 @@ Once deployed, embed your app via `<iframe>`:
 * **📄 ClauseLens Explanations**
 
   * Clause-grounded justifications for each quote
-  * Helps satisfy Solvency II / IFRS 17 compliance
+  * Supports Solvency II / IFRS 17 / NAIC compliance
 
 * **📊 MarketLens Dashboard**
 
@@ -142,13 +164,13 @@ Once deployed, embed your app via `<iframe>`:
 ## **💡 Notes**
 
 * The demo uses **synthetic and anonymized data** for compliance.
-* Full MARL training and large ML models can be run locally for advanced simulations.
-* Optional: Enable `torch` and `transformers` in `requirements.txt` for local experiments.
+* Heavy ML modules (`torch` + `transformers`) are optional and commented out in `requirements.txt` for faster deployment.
+* For production or local experiments, you can enable them for full MARL and NLP capabilities.
 
 ---
 
 ## **📜 License**
 
-MIT License – free for research and non-commercial use.
+MIT License – Free for research and non‑commercial use.
 
-
+---
